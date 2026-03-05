@@ -6,7 +6,7 @@ body {
   margin-bottom: 20px;
   font-size: 100%;
   min-height: 100vh;
-  background-image: url(/assets/img/sfondo.png);
+  background-image: url("..assets/img/sfondo.png");
   background-repeat: round;
 }
 
