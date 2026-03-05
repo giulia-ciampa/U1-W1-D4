@@ -52,6 +52,12 @@ header a {
   text-decoration: none;
 }
 
+header i {
+  color: white;
+  padding: 0.3em;
+  font-size: small;
+}
+
 h1,
 h2 {
   font-weight: bold;
@@ -166,11 +172,16 @@ main div p {
 main article {
   background-color: #bababa;
   width: 90%;
-  margin: auto;
+  margin: 1em;
+  padding: 1em;
 }
 
-section p {
-  margin: 0.5em;
+article p {
+  margin: 0;
+}
+
+article div {
+  text-align: end;
 }
 
 footer {
