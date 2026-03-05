@@ -2,21 +2,23 @@
 body {
   font-family: "Montserrat", sans-serif;
   line-height: 1.6;
-  margin: 0;
+  margin-top: 20px;
+  margin-bottom: 20px;
   font-size: 100%;
+  min-height: 100vh;
   background-image: url(/assets/img/sfondo.png);
   background-repeat: round;
 }
 
 .main-wrapper {
   width: 50%;
+  height: 100%;
   margin: 0 auto;
 }
 
 header {
   background-color: #2cb9ff;
   text-align: center;
-  margin-top: 10px;
   padding: 15px;
 }
 
@@ -57,15 +59,16 @@ h2 {
 }
 
 h1 {
-  font-size: 1.75em;
+  font-size: 2em;
+  font-weight: 600;
 }
 
 h2 {
-  font-size: 1.5em;
+  font-size: 1.75em;
 }
 
 main {
-  margin-top: 10px;
+  margin-top: 20px;
   background-color: white;
   padding: 20px;
 }
@@ -140,10 +143,51 @@ iframe {
 }
 
 form {
-  margin: 10px;
+  margin-top: 25px;
+  margin-bottom: 25px;
   padding: 15px;
   text-align: center;
   background-color: rgb(186, 186, 186);
+}
+
+button {
+  background-color: #2a6effbd;
+  color: white;
+  border-color: #2a6effbd;
+}
+main h2 {
+  text-align: center;
+}
+
+main div p {
+  margin: 0.3em;
+}
+
+main article {
+  background-color: #bababa;
+  width: 90%;
+  margin: auto;
+}
+
+section p {
+  margin: 0.5em;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+  background-color: #095450;
+  color: white;
+  padding: 15px;
+}
+
+footer address a {
+  color: #bd38e6;
+  font-weight: bold;
+}
+
+footer p {
+  margin-bottom: 1em;
 }
 
 /* HEADER */
