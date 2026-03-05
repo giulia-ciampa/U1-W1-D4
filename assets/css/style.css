@@ -110,6 +110,7 @@ caption {
 
 table {
   text-align: center;
+  margin: auto;
 }
 
 th {
@@ -172,7 +173,9 @@ main div p {
 main article {
   background-color: #bababa;
   width: 90%;
-  margin: 1em;
+  margin-top: 1em;
+  margin-left: auto;
+  margin-right: auto;
   padding: 1em;
 }
 
@@ -189,7 +192,7 @@ footer {
   margin-top: 20px;
   background-color: #095450;
   color: white;
-  padding: 15px;
+  padding: 20px;
 }
 
 footer address a {
